@@ -3,5 +3,6 @@
 
 personal project for git training :)
 
-git の練習用などなどです。
+git の練習用などなどですです。
+
 
