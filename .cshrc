@@ -37,18 +37,18 @@ setenv PACKAGEROOT ftp://ftp.jp.freebsd.org/
 #
 #setenv LANG    ja_JP.eucJP
 
-switch ( $OSTYPE )
-    case "linux*":          # Linux
-        setenv LANG    ja_JP.UTF-8
-        breaksw;
-    case "freebsd*":        # FreeBSD
-    case "FreeBSD*":        # FreeBSD
-        setenv LANG    ja_JP.eucJP
-        breaksw;
-    case "darwin*":         # OS/X
-        setenv LANG    ja_JP.UTF-8
-    default:
-endsw
+#switch ( $OSTYPE )
+#    case "linux*":          # Linux
+#        setenv LANG    ja_JP.UTF-8
+#        breaksw;
+#    case "freebsd*":        # FreeBSD
+#    case "FreeBSD*":        # FreeBSD
+#        setenv LANG    ja_JP.eucJP
+#        breaksw;
+#    case "darwin*":         # OS/X
+#        setenv LANG    ja_JP.UTF-8
+#    default:
+#endsw
 
 setenv LANG    ja_JP.UTF-8
 
