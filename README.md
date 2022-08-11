@@ -1,9 +1,11 @@
 # mydotfiles(まいど！)
-.vimrc, .cshrc, .wgetrc ... and so on.
 
-personal project for git training :)
+.vimrc
+.cshrc
+.wgetrc
+et al
 
-git の練習用などなどですですです。
+
 
 
 
